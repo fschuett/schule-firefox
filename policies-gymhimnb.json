@@ -1,0 +1,297 @@
+{
+  "policies": {
+    "AppAutoUpdate": false,
+    "Bookmarks": [
+      {
+        "Title": "Schulserver",
+        "URL": "https://www.gymhim.de",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "Gymhim (lokal)",
+        "URL": "https://wiki.gymhim.de",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "E-Mail",
+        "URL": "https://horde.gymhim.de",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "Gymnasium Himmelsthür (Internet)",
+        "URL": "http://www.gymnasium-himmelsthuer.de/",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "LEIFI_Physik",
+        "URL": "http://leifiphysik.de",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "Moodle",
+        "URL": "https://moodle.gymhim.de",
+        "Placement": "toolbar"
+      },
+      {
+        "Title": "Aufgaben",
+        "URL": "http://www.bommi2000.de/mathematik/",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "MathePrisma",
+        "URL": "http://www.matheprisma.uni-wuppertal.de/index.htm",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Lino - lin.Optimierung",
+        "URL": "http://www.wiwi-treff.de/home/index.php?mainkatid=1&ukatid=13&sid=52&artikelid=663&pagenr=0",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Lineare Optimierung",
+        "URL": "http://www.numerik.mathematik.uni-mainz.de/didaktikseminar/Gruppe7/einlesen.htm",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Mathe-online",
+        "URL": "http://www.mathe-online.at/galerie.html",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Modellieren mit Mathe Infothek",
+        "URL": "http://www.blikk.it/angebote/modellmathe/",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Das Newton-Verfahren",
+        "URL": "http://www.arndt-bruenner.de/mathe/java/newton.htm",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Standard-Solver",
+        "URL": "http://www.advanced-planning.de/advancedplanning-213.htm",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "GeoGebra - Dynamisches Arbeitsblatt",
+        "URL": "http://www.geogebra.org/de/examples/funktion_steigung/funktion_steigung1.html",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "MatheÜberall - Sek I",
+        "URL": "http://www.blikk.it/angebote/primarmathe/medio.htm",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Dynasys20",
+        "URL": "http://www.hupfeld-software.de/download.php?file=17",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Dynasys-Handbuch",
+        "URL": "http://zope.schulnetz.hamm.de:9673/modsim/download/handbuch.pdf",
+        "Folder": "Mathematik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Modellierung und Simulation - Biologie",
+        "URL": "http://www.learn-line.nrw.de/angebote/modell/modlist.htm",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "CO2-Bilanz",
+        "URL": "http://www.izu.bayern.de/faq/detail_faq.php?ID=202&kat=5&th=3&sub=1&sub_sub=1",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "CO2-Handel.de - Das Info-Portal zum Emissionshandel und Klimaschutz",
+        "URL": "http://www.co2-handel.de/article311_0.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Messungen mit der Soundkarte",
+        "URL": "http://www.schule-bw.de/unterricht/faecher/physik/mess/soundkarte",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "2008 Links: Physikunterricht, Experimente und Zaubertricks / Physik",
+        "URL": "http://www.autenrieths.de/links/linkphys.htm#Experimente",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Plasteflaschenexperimente",
+        "URL": "http://leifiphysik.de/web_ph08/heimversuche/pasteflasche8/pascalfontaene.htm",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Physik im Schulweb",
+        "URL": "http://www.gymmelk.ac.at/nus/physik/applets/index.php",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "BR-alpha",
+        "URL": "http://www.br-online.de/br-alpha/alpha-centauri/index.xml",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Quantenphysik",
+        "URL": "http://www.cip.physik.uni-muenchen.de/~milq/download.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Schwebungen",
+        "URL": "http://www.gymmelk.ac.at/nus/physik/applets/swing.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Teslatransformator",
+        "URL": "http://frankschinski.de.regexpress.de/downloads/enbw-energytower/",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "LEIFI_Physik",
+        "URL": "http://leifiphysik.de/",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Uni Würzburg",
+        "URL": "http://didaktik.physik.uni-wuerzburg.de/",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Wellenmaschine",
+        "URL": "http://phet.colorado.edu/sims/string-wave/string-wave.swf",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "CO2 - ZDF",
+        "URL": "http://www.heute.de/ZDFheute/inhalt/19/0,3672,4338963,00.html?dr=1",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Rauchlinien",
+        "URL": "http://www.diam.unige.it/~irro/profilo1a_d.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Fliegen",
+        "URL": "http://www.aniprop.de/index.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Naturgewalten",
+        "URL": "http://saevert.de/",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Wirbel",
+        "URL": "http://web.uni-frankfurt.de/fb13/didaktik/pagesK/html/unterrichtsreihe.html",
+        "Folder": "Physik",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Hurricanes",
+        "URL": "http://www.solar.ifa.hawaii.edu/tropical/tropical.html",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Das Lernen lernen",
+        "URL": "http://www.pohlw.de/lernen/kurs/index.htm",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Deutsches Wörterbuch",
+        "URL": "http://www.canoo.net/services/GermanSpellingChecker/Controller",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Google Quicksearch",
+        "URL": "http://www.google.de/search?&q=%s&ie=iso-8859-1&hl=de&meta=lr%3Dlang_de",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "LEO Deutsch-Englisches Wörterbuch",
+        "URL": "http://dict.leo.org/?lp=ende&lang=de&agent=firefox-de&search=%s",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Lerntagebuch",
+        "URL": "http://www.lehrer-online.de/lerntagebuch.php",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Wie man lernt",
+        "URL": "http://leifiphysik.de/seiten/wiemanlernt.htm",
+        "Folder": "Deutsch",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Wikipedia Quicksearch",
+        "URL": "http://de.wikipedia.org/wiki/Spezial:Search?search=%s",
+        "Folder": "Musik",
+        "Placement": "menu"
+      }
+    ],
+    "DisableAppUpdate": true,
+    "DisableFirefoxAccounts": true,
+    "DisplayBookmarksToolbar": true,
+    "DisplayMenuBar": "default-on",
+    "Extensions": {
+      "Install": [
+        "file:///etc/firefox/extensions/de-AT@dictionaries.addons.mozilla.org.xpi",
+        "file:///etc/firefox/extensions/de-DE@dictionaries.addons.mozilla.org.xpi",
+        "file:///etc/firefox/extensions/de-CH@dictionaries.addons.mozilla.org.xpi",
+        "file:///etc/firefox/extensions/langpack-de@firefox.mozilla.org.xpi"
+      ]
+    },
+    "Homepage": {
+      "URL": "https://wiki.gymhim.de",
+      "Locked": true,
+      "StartPage": "homepage-locked"
+    },
+    "NoDefaultBookmarks": true,
+    "OverrideFirstRunPage": "",
+    "Proxy": {
+      "Mode": "autoConfig",
+      "Locked": false,
+      "AutoConfigURL": "http://admin/proxy.pac",
+      "AutoLogin": true
+    },
+    "RequestedLocales": ["de-de", "de", "en-US"]
+  }
+}
