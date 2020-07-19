@@ -41,7 +41,7 @@ the firefox installation.
 
 %package sas
 Summary:      sas specific settings for firefox
-Conflicts:    schule-firefox-gymhim
+Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sasnb
 
 %description sas
 This package provides sas specific additions to
@@ -49,7 +49,7 @@ the firefox installation.
 
 %package sasnb
 Summary:      sas netbook specific settings for firefox
-Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sasnb
+Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sas
 
 %description sasnb
 This package provides sas netbook specific additions to
