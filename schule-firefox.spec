@@ -1,14 +1,10 @@
 Name:           schule-firefox
 Summary:        school specific settings for mozilla firefox
 Version:        68
-Release:        lp152_1.2
+Release:        1.1
 License:        GPL
 Group:          Productivity/Networking/Web/Browsers
 Source:        %{name}.tar.gz
-Source1:        policies-gymhim.json
-Source2:        policies-sas.json
-Source3:        policies-gymhimnb.json
-Source4:        policies-sasnb.json
 BuildRoot:      %{_tmppath}/build-root-%{name}
 Packager:       fschuett
 Distribution:   openSUSE Linux
@@ -29,7 +25,6 @@ for ex. cache, proxy, ...
 
 %package gymhim
 Summary:      gymhim specific settings for firefox
-Provides:     schule-firefox-gymhim
 Conflicts:    schule-firefox-gymhimnb schule-firefox-sas schule-firefox-sasnb
 
 %description gymhim
@@ -38,7 +33,6 @@ the firefox installation.
 
 %package gymhimnb
 Summary:      gymhim netbook specific settings for firefox
-Provides:     schule-firefox-gymhimnb
 Conflicts:    schule-firefox-gymhim schule-firefox-sas schule-firefox-sasnb
 
 %description gymhimnb
@@ -47,7 +41,6 @@ the firefox installation.
 
 %package sas
 Summary:      sas specific settings for firefox
-Provides:     schule-firefox-sas
 Conflicts:    schule-firefox-gymhim
 
 %description sas
@@ -56,7 +49,6 @@ the firefox installation.
 
 %package sasnb
 Summary:      sas netbook specific settings for firefox
-Provides:     schule-firefox-sasnb
 Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sasnb
 
 %description sasnb
@@ -71,10 +63,9 @@ the firefox installation.
 
 %install
 mkdir -p %{buildroot}%{progdir}/policies/
-install -m0644 %{S:1} %{buildroot}%{progdir}/policies/
-install -m0644 %{S:2} %{buildroot}%{progdir}/policies/
-install -m0644 %{S:3} %{buildroot}%{progdir}/policies/
-install -m0644 %{S:4} %{buildroot}%{progdir}/policies/
+for f in `ls *.json`; do
+  install -m0644 $f %{buildroot}%{progdir}/policies/
+done
 mkdir -p %{buildroot}%{progdir}/extensions/
 cp *.xpi %{buildroot}%{progdir}/extensions/
 
