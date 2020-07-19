@@ -70,69 +70,42 @@ mkdir -p %{buildroot}%{progdir}/extensions/
 cp extensions/*.xpi %{buildroot}%{progdir}/extensions/
 
 %post gymhim
-mv %{progdir}/policies/policies-gymhim.json %{progdir}/policies/policies.json
+ln -sf %{progdir}/policies/policies-gymhim.json %{progdir}/policies/policies.json
 
 %preun gymhim
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-mv %{progdir}/policies/policies.json %{progdir}/policies/policies-gymhim.json
+rm -f %{progdir}/policies/policies.json
 
 %post gymhimnb
-mv %{progdir}/policies/policies-gymhimnb.json %{progdir}/policies/policies.json
+ln -sf %{progdir}/policies/policies-gymhimnb.json %{progdir}/policies/policies.json
 
 %preun gymhimnb
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-mv %{progdir}/policies/policies.json %{progdir}/policies/policies-gymhimnb.json
+rm -f %{progdir}/policies/policies.json
 
 %post sas
-mv %{progdir}/policies/policies-sas.json %{progdir}/policies/policies.json
+ln -sf %{progdir}/policies/policies-sas.json %{progdir}/policies/policies.json
 
 %preun sas
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-mv %{progdir}/policies/policies.json %{progdir}/policies/policies-sas.json
+rm %{progdir}/policies/policies.json
 
 %post sasnb
-mv %{progdir}/policies/policies-sasnb.json %{progdir}/policies/policies.json
+ln -sf %{progdir}/policies/policies-sasnb.json %{progdir}/policies/policies.json
 
 %preun sasnb
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-mv %{progdir}/policies/policies.json %{progdir}/policies/policies-sasnb.json
+rm -f %{progdir}/policies/policies.json %{progdir}/policies/policies-sasnb.json
 
-#%files
-
-%files gymhim
-%defattr(644,root,root,0755)
-%dir %{progdir}
-%{progdir}/extensions
-%dir %{progdir}/policies
-%{progdir}/policies/policies-gymhim.json
-
-%files gymhimnb
-%defattr(644,root,root,0755)
-%dir %{progdir}
-%{progdir}/extensions
-%dir %{progdir}/policies
-%{progdir}/policies/policies-gymhimnb.json
-
-%files sas
-%defattr(644,root,root,0755)
-%dir %{progdir}
-%{progdir}/extensions
-%dir %{progdir}/policies
-%{progdir}/policies/policies-sas.json
-
-%files sasnb
-%defattr(644,root,root,0755)
-%dir %{progdir}
-%{progdir}/extensions
-%dir %{progdir}/policies
-%{progdir}/policies/policies-sasnb.json
+%files
+%{progdir}
 
 %changelog
