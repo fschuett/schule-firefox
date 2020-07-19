@@ -67,7 +67,7 @@ for f in `ls *.json`; do
   install -m0644 $f %{buildroot}%{progdir}/policies/
 done
 mkdir -p %{buildroot}%{progdir}/extensions/
-cp *.xpi %{buildroot}%{progdir}/extensions/
+cp extendions/*.xpi %{buildroot}%{progdir}/extensions/
 
 %post gymhim
 mv %{progdir}/policies/policies-gymhim.json %{progdir}/policies/policies.json
