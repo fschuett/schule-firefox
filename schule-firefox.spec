@@ -4,7 +4,7 @@ Version:        68
 Release:        1.1
 License:        GPL
 Group:          Productivity/Networking/Web/Browsers
-Source:        %{name}.tar.gz
+Source:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/build-root-%{name}
 Packager:       fschuett
 Distribution:   openSUSE Linux
