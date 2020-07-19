@@ -56,7 +56,7 @@ This package provides sas netbook specific additions to
 the firefox installation.
 %prep
 
-%setup -n schule-firefox
+%setup
 
 #%build
 #nothing to do
