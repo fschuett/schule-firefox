@@ -98,7 +98,7 @@ ln -sf %{progdir}/policies/policies-sas.json %{progdir}/policies/policies.json
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-rm %{progdir}/policies/policies.json
+rm -f %{progdir}/policies/policies.json
 
 %post sasnb
 ln -sf %{progdir}/policies/policies-sasnb.json %{progdir}/policies/policies.json
@@ -107,7 +107,7 @@ ln -sf %{progdir}/policies/policies-sasnb.json %{progdir}/policies/policies.json
 if [ $1 -gt 0 ]; then
     exit 0;
 fi
-rm -f %{progdir}/policies/policies.json %{progdir}/policies/policies-sasnb.json
+rm -f %{progdir}/policies/policies.json
 
 %files
 %{progdir}
