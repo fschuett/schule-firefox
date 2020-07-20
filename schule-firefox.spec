@@ -25,6 +25,7 @@ for ex. cache, proxy, ...
 
 %package gymhim
 Summary:      gymhim specific settings for firefox
+Requires:     schule-firefox
 Conflicts:    schule-firefox-gymhimnb schule-firefox-sas schule-firefox-sasnb
 
 %description gymhim
@@ -33,6 +34,7 @@ the firefox installation.
 
 %package gymhimnb
 Summary:      gymhim netbook specific settings for firefox
+Requires:     schule-firefox
 Conflicts:    schule-firefox-gymhim schule-firefox-sas schule-firefox-sasnb
 
 %description gymhimnb
@@ -41,6 +43,7 @@ the firefox installation.
 
 %package sas
 Summary:      sas specific settings for firefox
+Requires:     schule-firefox
 Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sasnb
 
 %description sas
@@ -49,6 +52,7 @@ the firefox installation.
 
 %package sasnb
 Summary:      sas netbook specific settings for firefox
+Requires:     schule-firefox
 Conflicts:    schule-firefox-gymhim schule-firefox-gymhimnb schule-firefox-sas
 
 %description sasnb
