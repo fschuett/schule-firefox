@@ -108,4 +108,13 @@ rm -f %{progdir}/policies/policies.json %{progdir}/policies/policies-sasnb.json
 %files
 %{progdir}
 
+%files gymhim
+
+%files gymhimnb
+
+%files sas
+
+%files sasnb
+
+
 %changelog
