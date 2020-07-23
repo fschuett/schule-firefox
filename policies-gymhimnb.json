@@ -281,13 +281,13 @@
     },
     "Homepage": {
       "URL": "https://wiki.gymhim.de",
-      "Locked": true,
-      "StartPage": "homepage-locked"
+      "Locked": false,
+      "StartPage": "none"
     },
     "NoDefaultBookmarks": true,
     "OverrideFirstRunPage": "",
     "Proxy": {
-      "Mode": "autoConfig",
+      "Mode": "autoDetect",
       "Locked": false,
       "AutoConfigURL": "http://admin/proxy.pac",
       "AutoLogin": true
