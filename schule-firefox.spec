@@ -2,7 +2,7 @@ Name:           schule-firefox
 Summary:        school specific settings for mozilla firefox
 Version:        68
 Release:        1.1
-License:        GPL
+License:        GPL-3.0-or-later
 Group:          Productivity/Networking/Web/Browsers
 Source:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/build-root-%{name}
@@ -16,8 +16,6 @@ Vendor:         openSUSE
 %define homepagesas https://wiki.gymsas.de
 
 %define progdir %{_sysconfdir}/firefox
-%define suseversion 15.2
-%define distname openSUSE Leap
 
 %description
 provides school specific settings for mozilla firefox
